@@ -9,7 +9,7 @@ body,ul,li,a {
 body {
     font-family: "Alfa Slab One", serif;
     background-color: #f4f4f4;
-    background-image: url('/assets/images/mecha-brain-gon-y-killua-pc-1920x1080.gif');
+    background-image: url('../img/mecha-brain-gon-y-killua-pc-1920x1080.gif');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
