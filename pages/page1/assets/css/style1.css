@@ -11,7 +11,7 @@ body, ul, li, a {
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    background-image: url('images/zoro\ image.gif'); /* Replace with your image path */
+    background-image: url('/assets/images/zoro\ image.gif'); /* Replace with your image path */
     background-size: cover; /* Ensure the background covers the whole body */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent the background image from repeating */

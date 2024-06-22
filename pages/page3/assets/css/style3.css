@@ -1,4 +1,4 @@
-body, ul, li, a {
+body,ul,li,a {
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -7,9 +7,9 @@ body, ul, li, a {
 }
 
 body {
-    font-family: "Permanent Marker", cursive;
+    font-family: "Alfa Slab One", serif;
     background-color: #f4f4f4;
-    background-image: url('images/into\ the\ spiderverse.jpg');
+    background-image: url('/assets/images/mecha-brain-gon-y-killua-pc-1920x1080.gif');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -67,14 +67,6 @@ body {
     padding: 20px; /* Add padding for spacing */
     border-radius: 10px; /* Rounded corners for the container */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for the container */
-    opacity: 0; /* Initial state of the fade-in animation */
-    animation: fadeIn 2s forwards; /* Applying fade-in animation */
-}
-
-@keyframes fadeIn {
-    to {
-        opacity: 1;
-    }
 }
 
 .member {
@@ -84,7 +76,7 @@ body {
     width: fit-content; /* Adjust width of the member container */
     height: fit-content; /* Adjust height of the member container */
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.644); /* Background color of the member content */
+    background-color: rgba(207, 221, 209, 0.644); /* Background color of the member content */
     border: 1px solid #ccb6b6;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); /* Fixed box shadow declaration */
     text-align: center;
@@ -103,54 +95,7 @@ body {
 .member h2 {
     margin: 10px 0 0;
     font-style: italic;
-    font-weight: bold;
-}
-
-.member-container {
-    display: flex;
-    flex-direction: row;
-    background-color: transparent;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    overflow: hidden;
-    max-width: 1000px;
-    margin: 20px;
-}
-
-.member-img {
-    width: 100%;
-    max-width: 500px;
-    height: auto;
-}
-
-.member-details {
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.member-details h1 {
-    margin: 0;
-    font-size: 5rem;
-    color: #ffffff;
-    font-weight: bolder;
-}
-
-.member-details p {
-    margin: 1rem 0;
-    color: #e7dddd;
-    line-height: 1.6;
-}
-
-.member-details ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.member-details ul li {
-    margin: 0.5rem 0;
-    color: white;
+    font-weight: lighter;
 }
 
 .footer {
