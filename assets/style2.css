@@ -1,0 +1,159 @@
+body, ul, li, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Pixelify Sans', sans-serif;
+    background-color: #f4f4f4;
+    background-image: url('images/thorfinn bg.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #fff;
+    padding: 10px 0;
+}
+
+.header .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header nav ul li {
+    background-color: transparent;
+    margin: 0 10px;
+    border-radius: 5px; 
+    overflow: hidden;
+}
+
+.header nav ul li a {
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    display: block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header nav ul li a:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.member-container {
+    display: flex;
+    justify-content: center;
+    margin: 80px 0 20px 0; /* Adjusted top margin to prevent overlap with the header */
+}
+
+.member {
+    position: relative;
+    width: 200px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: white;
+}
+
+.member img {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.member .container {
+    margin-top: 60px; /* Adjust margin to make space for the image */
+}
+
+.member h1, .member h2 {
+    margin: 10px 0 0;
+}
+
+.footer {
+    background-color: transparent;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer ul li {
+    margin-left: 20px;
+}
+
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer ul li a:hover {
+    color: #ccc; /* Lighten text on hover */
+}
+
+footer {
+    background-color: transparent; /* Dark background for the footer */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center; /* Center text within footer */
+}
+
+.footer .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: center; /* Center the footer list */
+}
+
+.footer ul li {
+    margin: 0 10px;
+}
+
+.footer ul li a {
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.footer ul li a:hover {
+    color: #ccc; /* Lighten text on hover */
+}

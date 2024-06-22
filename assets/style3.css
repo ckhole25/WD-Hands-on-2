@@ -1,0 +1,165 @@
+body,ul,li,a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Alfa Slab One", serif;
+    background-color: #f4f4f4;
+    background-image: url('images/mecha-brain-gon-y-killua-pc-1920x1080.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align content horizontally */
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.header .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header nav ul li {
+    background-color: transparent;
+    margin: 0 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.header nav ul li a {
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    display: block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header nav ul li a:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.member-container {
+    display: flex;
+    justify-content: space-between; /* Align containers in a row with space between */
+    margin: 80px auto 20px; /* Adjusted top margin to prevent overlap with the header */
+    max-width: 1200px; /* Limit width of member containers */
+    width: 100%; /* Ensure full width within max-width */
+    background-color: transparent; /* Background color of the container */
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 10px; /* Rounded corners for the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for the container */
+}
+
+.member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content; /* Adjust width of the member container */
+    height: fit-content; /* Adjust height of the member container */
+    padding: 20px;
+    background-color: rgba(207, 221, 209, 0.644); /* Background color of the member content */
+    border: 1px solid #ccb6b6;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); /* Fixed box shadow declaration */
+    text-align: center;
+}
+
+.member img {
+    width: 100%;
+    min-height: fit-content;
+}
+
+.member .member-details {
+    margin-top: 20px; /* Adjust margin to create space between image and details */
+}
+
+.member h1,
+.member h2 {
+    margin: 10px 0 0;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.footer {
+    background-color: transparent;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer ul li {
+    margin-left: 20px;
+}
+
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer ul li a:hover {
+    color: #ccc; /* Lighten text on hover */
+}
+
+footer {
+    background-color: transparent; /* Dark background for the footer */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center; /* Center text within footer */
+}
+
+.footer .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: center; /* Center the footer list */
+}
+
+.footer ul li {
+    margin: 0 10px;
+}
+
+.footer ul li a {
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.footer ul li a:hover {
+    color: #ccc; /* Lighten text on hover */
+}
