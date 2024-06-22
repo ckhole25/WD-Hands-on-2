@@ -9,7 +9,7 @@ body, ul, li, a {
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    background-image: url('/assets/images/luffy\ background.gif'); 
+    background-image: url('../images/luffy\ background.gif'); 
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat; 
