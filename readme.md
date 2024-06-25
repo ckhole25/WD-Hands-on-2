@@ -9,11 +9,11 @@
     <img src="/pages/page3/assets/img/mecha-brain-gon-y-killua-pc-1920x1080.gif" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Hero and Card</h3>
+  <h3 align="center">Hands on 2:Hero and Card</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  This is a website containing 5 different hero galleries and a card gallery that contains 5 different animated card styles
 </div>
 
 <br />
@@ -57,20 +57,16 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+ This project demonstrates the coding of HTML and CSS of 5 different hero and Card gallery sections that aims to help up improve our coding and designing skills. The landing page containing navigation button to help access the hero and card gallery section
 
-Guiding Question:
-- What is the project - The project is all about heros and cards, landing page containing navigation button to help access the hero and card gallery section
-- Whats the purpose - The purpose of this website is to create a website containing 5 different hero gallery section and a card gallery section containing 5 different animated card styles
-- What are key components - 
-- What technology used and how it is used
+ ## Instructions
+ The landing page consists of the title of the project, and clicking 5 different hero sections will lead you to the designated hero design 
 
 ### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- Static hero designs
+- Static card designs
+- Animated card designs
+
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -117,4 +113,7 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Hunter x Hunter | Background image. | mecha-brain-gon-y-killua-pc-1920x1080.gif |
+| Images for HTML and css | Images i used for my project | pinterest.com|
+| Github Template | The template i used for deploying my website |  zyx-0314/WD-Template-Project |
+| Style codes for the css | Sample codes that helped me|  youtube.com |
+
