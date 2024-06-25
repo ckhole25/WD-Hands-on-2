@@ -60,9 +60,9 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
+- What is the project - The project is all about heros and cards, landing page containing navigation button to help access the hero and card gallery section
+- Whats the purpose - The purpose of this website is to create a website containing 5 different hero gallery section and a card gallery section containing 5 different animated card styles
+- What are key components - 
 - What technology used and how it is used
 
 ### Key Components
